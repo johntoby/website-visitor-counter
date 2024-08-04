@@ -48,7 +48,7 @@ COPY . .
 EXPOSE 8000
 
 #create an entrypoint for the application 
-ENTRYPOINT [ "Python3" ]
+ENTRYPOINT [ "python3" ]
 
 
 # Run the application.
